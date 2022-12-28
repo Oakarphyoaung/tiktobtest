@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-eHx4nbBTkIr2i0m9SANm/cczPESd0DUEcfl84JpIuutE6oDxPhXvskMR08Wmvmfx5wUpVjlWdi82G5YLvqqJdA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0%;
+        color: white;
+        font-weight: 600;
+        margin: 0;
+      }
+      body {
+        background-color: rgb(9, 7, 5);
+      }
+      .top {
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+      /* .middle{
+            display: flex;
+            flex-direction: row
+            justify-content:flex-end;
+            align-items: flex-end;
+        } */
+      .video_container {
+        min-width: 280px;
+        max-width: 340px;
+        margin: 0 auto;
+        position: relative;
+        background-color: black;
+        height: 100vh;
+      }
+      .social_icons_container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        color: white;
+      }
+      .social_icons_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 10px;
+        top: 20%;
+        z-index: 100;
+      }
+      img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+      }
+      .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .fa,
+      .fas {
+        font-weight: 900;
+      }
+      .fa,
+      .far,
+      .fas {
+        font-family: "Font Awesome 5 Free";
+      }
+
+      .tiktokPlus {
+        width: 50px;
+        border-radius: 12px;
+      }
+      .userImg {
+        width: 20px;
+      }
+       
+      video {
+        object-fit: contain;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+      }
+      .path_container {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 500px;
+      }
+      hr{
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video_container">
+        <div class="top">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              fill="currentColor"
+              class="bi bi-youtube"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+              />
+            </svg>
+            <a href="">Following</a>
+            <a href="">Friends</a>
+            <a href="">For You</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="social_icons_container">
+            <img src="./henry_face.jpg" alt="avatar" class="avatar point" />
+            <div class="profileIcn_container">
+              <i class="fas fa-plus profileIcn" aria-hidden="true"> </i>
+            </div>
+      
+            <div class="profileIn_container">
+              <span>471.3K</span>
+            </div>
+            <div class="profileIn_container">
+              <i class="fas fa-share bodyIcn" aria-hidden="true"></i>
+              <span>471.3K</span>
+            </div>
+            <div class="profileIn_container">
+              <i class="fas fa-bookmark bodyIcn" aria-hidden="true"></i>
+              <span>471.3K</span>
+            </div>
+            <div class="profileIn_container">
+              <i class="far fa-comment-dots bodyIcn" aria-hidden="true"></i>
+              <span>471.3K</span>
+            </div>
+            <!-- <video width="340" height="700px" loop autoplay>
+              <source
+                src="./SnapSave.io-Billy Joel - Uptown Girl (Official Video)-(480p).mp4"
+                type="video/mp4"
+              />
+            </video> -->
+            <hr>
+          </div>
+          <div class="path_container">
+            <i class="fas fa-home icn"></i>
+            <i class="far fa-shopping-bag icn"></i>
+            <img src="./tiktokPlusSign.jpg" alt="" class="tiktokPlus" />
+            <i class="far fa-comment-alt icn"></i>
+            <img src="./user (1).png" alt="" class="userImg" />
+          </div>
+    </div>
+    
+  </body>
+</html>
